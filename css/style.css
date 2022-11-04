@@ -1,63 +1,117 @@
 body {
-  font-family: Georgia, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
   display: flex;
   flex-direction: column;
   margin: 0;
   color: black;
 }
 
-h1 {
-  font-size: 56px;
-  text-align: center;
+.body {
+  padding: 52px;
 }
 
-header,
-footer {
-  background-color: #efebec;
-  display: flex;
-  flex: 1;
-  flex-shrink: 1;
+h1 {
+  font-size: 48px;
+}
+
+h1,
+h2,
+h3 {
+  color: #272667;
+}
+
+p {
+  color: grey;
 }
 
 header {
   padding: 8px;
   justify-content: space-between;
+  display: flex;
   padding-left: 50px;
   padding-right: 50px;
   align-items: center;
 }
 
-header ul {
+ul {
   list-style: none;
+}
+
+header ul {
   display: flex;
-  gap: 22px;
+  gap: 48px;
   align-items: center;
   justify-content: center;
-  font-size: 21px;
+  font-size: 16px;
+  font-weight: 400;
 }
 
 a {
   text-decoration: none;
-  color: #494949;
+  color: grey;
+  font-weight: 500;
   -webkit-transition: color 2s;
   transition: color 0.4s;
 }
 
 a:hover {
-  color: #bb68c0;
+  color: #2f70d3;
+}
+
+button {
+  background-color: #2f70d3;
+  border-radius: 3px;
+  color: white;
+  width: 120px;
+  height: 40px;
+  border-style: solid;
+  border-color: #2f70d3;
+  cursor: pointer;
+  box-shadow: 0px 3px 8px #2f70d3;
+}
+
+.vaccination-text {
+  color: #235fb8;
+  font-size: 18px;
+  font-weight: bolder;
 }
 
 footer {
+  background-color: #dde8f9;
+  display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
-  flex: 1;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  gap: 5px;
+  padding-left: 50px;
+  padding-right: 50px;
+  gap: 70px;
 }
 
-button:hover {
-  background-color: white;
-  color: #bb68c0;
+.first-row {
+  display: flex;
+  justify-content: space-between;
+  flex-grow: 1;
+}
+
+.footer-extra {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.more-info {
+  display: flex;
+  gap: 90px;
+}
+
+.more-info .container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 16px;
+}
+
+.footer-extra ul {
+  display: flex;
+  gap: 16px;
 }
