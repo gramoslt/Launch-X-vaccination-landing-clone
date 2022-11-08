@@ -16,7 +16,8 @@ h1 {
 
 h1,
 h2,
-h3 {
+h3,
+h5 {
   color: #272667;
 }
 
@@ -76,11 +77,106 @@ button {
   font-weight: bolder;
 }
 
+img {
+  width: 50%;
+  height: auto;
+}
+
+.welcome {
+  display: flex;
+  gap: 18px;
+}
+.vaccines-logos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 90px;
+  gap: 80px;
+}
+.vaccines-logos img {
+  width: auto;
+  height: 40px;
+}
+
+.why-vaccine {
+  display: flex;
+  flex-direction: column;
+}
+
+.benefits {
+  display: flex;
+  gap: 28px;
+  margin-bottom: 158px;
+}
+
+.benefits .container,
+.contact-box {
+  border-width: 2px;
+  box-shadow: 1px 1px 21px #2f71d37a;
+  border-radius: 7px;
+  padding: 18px;
+}
+
+.icon {
+  min-width: 20px;
+  max-width: 30px;
+  max-height: 30px;
+
+  border-width: 2px;
+  box-shadow: 1px 1px 21px #2f71d37a;
+  border-radius: 7px;
+}
+
+.preparations-section {
+  display: flex;
+  gap: 50px;
+}
+
+.preparations-section p {
+  margin-bottom: 56px;
+}
+
+.preparations {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.box {
+  display: flex;
+  gap: 18px;
+  align-items: center;
+}
+
+.contact-section {
+  margin-top: 158px;
+  display: flex;
+}
+
+.contacts {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 54px;
+  justify-content: center;
+}
+
+.contact-box {
+  display: flex;
+  flex-direction: column;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+}
+
 footer {
   background-color: #dde8f9;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  padding-top: 50px;
   padding-left: 50px;
   padding-right: 50px;
   gap: 70px;

@@ -31,17 +31,41 @@
           </p>
 
           <div class="schedule">
-            <form action=""></form>
+            <form action="">
+              <h3>Schedule your vaccinations</h3>
+              <label for="location">Location</label>
+              <input
+                type="text"
+                name="location"
+                id="location"
+                placeholder="Location"
+              />
+
+              <br /><br />
+
+              <label for="date">Date</label>
+              <input type="date" name="date" id="date" value="date" />
+
+              <br /><br />
+
+              <label for="vaccine">Vaccine Type</label>
+              <select name="vaccine" id="vaccine">
+                <option value="astrazeneca">AstraZeneca</option>
+                <option value="sinovac">SINOVAC</option>
+                <option value="pfizer">Pfizer</option>
+                <option value="moderna">Moderna</option>
+              </select>
+            </form>
           </div>
         </div>
-        <img src="" alt="enfermera con vacuna" />
+        <img src="./img/nurse-vaccine.jpg" alt="enfermera con vacuna" />
       </section>
 
       <section class="vaccines-logos">
-        <img src="" alt="AstraZeneca logo" />
-        <img src="" alt="SINOVAC logo" />
-        <img src="" alt="Pfizer logo" />
-        <img src="" alt="moderna logo" />
+        <img src="./img/logos/astrazeneca-logo.png" alt="AstraZeneca logo" />
+        <img src="./img/logos/sinovac-logo.png" alt="SINOVAC logo" />
+        <img src="./img/logos/pfizer-logo.png" alt="Pfizer logo" />
+        <img src="./img/logos/moderna-logo.jpeg" alt="moderna logo" />
       </section>
 
       <section class="why-vaccine">
@@ -54,7 +78,7 @@
         </div>
         <div class="benefits">
           <div class="container">
-            <img src="" alt="icon" />
+            <img class="icon" src="./img/icons/tune-icon.png" alt="icon" />
             <h3>Minimize the spread of viruses</h3>
             <p>
               Vaccine has been proven effective to prevent someone from getting
@@ -63,7 +87,7 @@
           </div>
 
           <div class="container">
-            <img src="" alt="icon" />
+            <img class="icon" src="./img/icons/shield-icon.png" alt="icon" />
             <h3>Forming antibodies</h3>
             <p>
               COVID-19 vaccine proven to help shape antibody response for immune
@@ -72,7 +96,7 @@
           </div>
 
           <div class="container">
-            <img src="" alt="icon" />
+            <img class="icon" src="./img/icons/people-icon.png" alt="icon" />
             <h3>Protecting people nearby</h3>
             <p>
               The benefits of COVID-19 vaccination are the vaccine that we get
@@ -81,7 +105,7 @@
           </div>
 
           <div class="container">
-            <img src="" alt="icon" />
+            <img class="icon" src="./img/icons/arrow-icon.png" alt="icon" />
             <h3>Creating group immunity</h3>
             <p>
               COVID-19 vaccination is also beneficial for creating group
@@ -92,7 +116,7 @@
       </section>
 
       <section class="preparations-section">
-        <img src="" alt="Mujer con cubrebocas" />
+        <img src="./img/facemask.jpg" alt="Mujer con cubrebocas" />
         <div class="info">
           <h2>Preparations Before Vaccine</h2>
           <p>
@@ -102,23 +126,23 @@
           </p>
           <div class="preparations">
             <div class="box">
-              <img src="" alt="icon" />
+              <img class="icon" src="./img/icons/shield-icon.png" alt="icon" />
               <h3>Avoid alcoholic beverages</h3>
             </div>
             <div class="box">
-              <img src="" alt="icon" />
+              <img class="icon" src="./img/icons/x-icon.png" alt="icon" />
               <h3>Avoid stress</h3>
             </div>
             <div class="box">
-              <img src="" alt="icon" />
+              <img class="icon" src="./img/icons/graph-icon.png" alt="icon" />
               <h3>Eath healthy food</h3>
             </div>
             <div class="box">
-              <img src="" alt="icon" />
+              <img class="icon" src="./img/icons/check-icon.png" alt="icon" />
               <h3>Get enough sleep</h3>
             </div>
             <div class="box">
-              <img src="" alt="icon" />
+              <img class="icon" src="./img/icons/heart-icon.png" alt="icon" />
               <h3>Exercise or physical activity</h3>
             </div>
           </div>
@@ -136,32 +160,59 @@
 
           <div class="contacts">
             <div class="contact-box">
-              <img src="" alt="icon" />
-              <h5></h5>
-              <p>012.345.678.90</p>
+              <div class="row">
+                <img class="icon" src="./img/icons/phone-icon.png" alt="icon" />
+                <div class="column">
+                  <h5>Call</h5>
+                  <p>012.345.678.90</p>
+                </div>
+              </div>
               <button>Call Now</button>
             </div>
+
             <div class="contact-box">
-              <img src="" alt="icon" />
-              <h5></h5>
-              <p>012.345.678.90</p>
+              <div class="row">
+                <img
+                  class="icon"
+                  src="./img/icons/message-icon.png"
+                  alt="icon"
+                />
+                <div class="column">
+                  <h5>Chat</h5>
+                  <p>012.345.678.90</p>
+                </div>
+              </div>
+
               <button>Chat Now</button>
             </div>
             <div class="contact-box">
-              <img src="" alt="icon" />
-              <h5></h5>
-              <p>012.345.678.90</p>
+              <div class="row">
+                <img
+                  class="icon"
+                  src="./img/icons/video-camera-icon.png"
+                  alt="icon"
+                />
+                <div class="column">
+                  <h5>Video Call</h5>
+                  <p>012.345.678.90</p>
+                </div>
+              </div>
               <button>Video Call Now</button>
             </div>
+
             <div class="contact-box">
-              <img src="" alt="icon" />
-              <h5></h5>
-              <p>012.345.678.90</p>
+              <div class="row">
+                <img class="icon" src="./img/icons/mail-icon.png" alt="icon" />
+                <div class="column">
+                  <h5>Message</h5>
+                  <p>012.345.678.90</p>
+                </div>
+              </div>
               <button>Message Now</button>
             </div>
           </div>
         </div>
-        <img src="" alt="Enfermero" />
+        <img src="./img/nurse.jpg" alt="Enfermero" />
       </section>
     </section>
 
