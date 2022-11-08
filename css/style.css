@@ -164,11 +164,18 @@ img {
 .contact-box {
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-box button {
+  width: 100%;
 }
 
 .row {
   display: flex;
   align-items: center;
+  gap: 16px;
 }
 
 footer {
